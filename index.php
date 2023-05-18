@@ -35,8 +35,8 @@
         <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
             <div class="container py-3">
                 <!-- CONTAINER -->
-                <a href="#" class="navbar-brand primary-color">
-                    <img src="img/logo.png" alt="Syspdv">
+                <a href="#" class="navbar-brand ">
+                    <img src="images/logo.png" alt="Syspdv">
                 </a>
                 <!-- MENU MOBILE -->
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
