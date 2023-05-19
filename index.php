@@ -71,7 +71,7 @@
     </div><!-- HEADER -->
     <section class="home">
         <h1>OLA MUNDO</h1>
-        <button onclick="olamundo()">BOTAO</button>
+        <button class="btn btn-primary" type="button" onclick="olamundo()">BOTAO</button>
     </section>
 </body>
 </html>
