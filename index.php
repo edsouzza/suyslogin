@@ -23,64 +23,22 @@
     <link rel="stylesheet" href="css/estilos.css">
 
     <!-- JS DO PROJETO -->
-    
+    <script src="js/funcoes.js" defer></script>
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
         defer>
     </script>
-    <script src="js/funcoes.js" defer></script>
-
+   
     <title>Syslogin</title>
 </head>
 <body>
-    <div id="header">
-        <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
-            <div class="container py-3">
-                <!-- CONTAINER -->
-                <a href="#" class="navbar-brand ">
-                    <img src="images/logo.png" alt="Syspdv">
-                </a>
-                <!-- MENU MOBILE -->
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list"></i>
-                </button><!-- /MENU MOBILE -->
-
-                <div class="collapse navbar-collapse" id="navbar-items">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item ">
-                            <a href="#home" class="nav-link active" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#empresa" class="nav-link">Quem somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#videos" class="nav-link">Vídeos Funcionalidades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#licenca" class="nav-link">Licença</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="assets/politicas.pdf" target="_blank" rel="noopener noreferrer" class="nav-link">Política</a>
-                        </li>
-                    </ul>
-                </div>
-            </div><!-- CONTAINER -->
-        </nav><!-- NAVBAR -->
-    </div><!-- HEADER -->
-
-    <section class="home">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                <h1>OLA MUNDO</h1>
-                <div><input class="btn btn-primary" type="button"  onclick="olamundo()" value="Exibir Alert" /></div>
-                </div>
-            </div>
-        </div> 
-    </section>       
+    
+   <div class="home">
+       <button class="btn btn-primary" onclick="olamundo()">Mensagem</button>
+   </div>
+    
         
 </body>
 </html>

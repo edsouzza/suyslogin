@@ -5,16 +5,24 @@
     font-family: 'Lato', 'Times New Roman', Times, serif;
 }
 
-.header{
+#header{
+
     display: flex;
     width: 100vw;
     background-color: rgb(153, 31, 139);
 }
 
 .home{
-    background-color: rgb(125, 193, 212);
+     background-color: rgb(153, 196, 222); 
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
-    width: 100vh;
+    height: 100vh;
+}
+
+.btn{
+   width: 10rem;
+   height: 3rem;
 }
 
