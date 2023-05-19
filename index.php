@@ -20,16 +20,17 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- CSS DO PROJETO -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
     <!-- JS DO PROJETO -->
-    <script src="js/script.js" defer></script>
+    
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
         defer>
     </script>
+    <script src="js/funcoes.js" defer></script>
 
     <title>Syslogin</title>
 </head>
@@ -71,7 +72,6 @@
     </div><!-- HEADER -->
     <section class="home">
         <h1>OLA MUNDO</h1>
-        <button class="btn btn-primary" type="button" onclick="olamundo()">BOTAO</button>
-    </section>
+        <input type="button" onclick="olamundo()" value="Exibir Alert" />
 </body>
 </html>
