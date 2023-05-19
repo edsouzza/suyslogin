@@ -35,9 +35,9 @@
 </head>
 <body>
     
-   <div class="home">
+   <section class="home">
        <button class="btn btn-primary" onclick="olamundo()">Mensagem</button>
-   </div>
+   </section>
     
         
 </body>
