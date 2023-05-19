@@ -70,8 +70,17 @@
             </div><!-- CONTAINER -->
         </nav><!-- NAVBAR -->
     </div><!-- HEADER -->
+
     <section class="home">
-        <h1>OLA MUNDO</h1>
-        <input type="button" onclick="olamundo()" value="Exibir Alert" />
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <h1>OLA MUNDO</h1>
+                <div><input class="btn btn-primary" type="button"  onclick="olamundo()" value="Exibir Alert" /></div>
+                </div>
+            </div>
+        </div> 
+    </section>       
+        
 </body>
 </html>
