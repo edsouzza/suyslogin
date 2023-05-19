@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Times New Roman', Times, serif;
+}
+
+#header{
+
+    display: flex;
+    width: 100vw;
+    background-color: rgb(153, 31, 139);
+}
+
+.home{
+     background-color: rgb(251, 251, 251); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+   width: 10rem;
+   height: 3rem;
+}
+
